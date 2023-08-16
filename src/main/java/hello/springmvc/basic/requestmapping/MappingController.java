@@ -110,7 +110,7 @@ public class MappingController {
      * produces = "text/*"
      * produces = "*\/*"
      */
-    @PostMapping(value = "/mapping-produce", produces = MediaType.TEXT_HTML_VALUE)
+    @PostMapping(value = "/mapping-produce", produces = MediaType.TEXT_HTML_VALUE   )
     public String mappingProduces() {
         log.info("mappingProduces");
         return "ok";
